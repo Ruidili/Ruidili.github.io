@@ -1,13 +1,18 @@
 * { box-sizing: border-box; }
 h1 {
 	text-align: center;
+	font-family: "Impact", charcoal, sans-serif;
+}
+
+.h1 {
+	background: rgb(255,228,196);
 }
 
 h3 {
 	text-align: center;
 }
 
-img {
+.image1 {
 	image-orientation: center;
 	display: block;
 	margin-left: auto;
@@ -83,4 +88,21 @@ body {
 	width: 100%;
 	padding: 0 50px;
 	line-height: 2;
+}
+
+.image2 {
+	width: 42px;
+	height: 42px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	image-orientation: center;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media {
+	text-align: center;
 }
