@@ -1,4 +1,107 @@
 * { box-sizing: border-box; }
+.logo {
+height: 180px;
+width: 180px;
+}
+
+.logo a {
+	text-decoration: none;
+}
+
+.films {
+height: 150px;
+width: 170px;
+}
+
+.films a {
+	text-decoration: none;
+}
+
+.about {
+height: 140px;
+width: 160px;
+}
+
+.about a {
+	text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+  overflow: visible !important;
+	position: relative;
+  background-color: white;
+	display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+	z-index: 5000;
+	border-bottom: 2px solid rgb(255,228,196);
+}
+
+li {
+	display: block;
+  flex: 0 1 auto;
+  list-style-type: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
 h1 {
 	text-align: center;
 	font-family: "Impact", charcoal, sans-serif;
@@ -23,7 +126,7 @@ h3 {
 
 
 body {
-	background: white;
+	 background-color: white;
 	font-family: 'Droid Sans', sans-serif;
 }
 
@@ -80,7 +183,7 @@ body {
 
 .is-selected {
 	opacity: 1;
-	background: linear-gradient(rgb(	255,228,196), rgb(255,228,196)), url('http://orig15.deviantart.net/7604/f/2011/205/2/9/texture_old_640x480_by_bluezircon_graphics-d41jn8n.jpg');
+	background: linear-gradient(rgb(255,228,196), rgb(255,228,196)), url('http://orig15.deviantart.net/7604/f/2011/205/2/9/texture_old_640x480_by_bluezircon_graphics-d41jn8n.jpg');
 	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
 }
 
@@ -97,6 +200,12 @@ body {
 	margin-right: auto;
 	display: inline-block;
 	image-orientation: center;
+}
+
+.image2:hover {
+	transition: 0.6s ease;
+	 width: 52px;
+	 height: 52px;
 }
 
 .social-media a {
