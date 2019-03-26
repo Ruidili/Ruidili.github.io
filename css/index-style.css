@@ -61,10 +61,6 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: lightpink;
-}
-
 .active {
   background-color: #4CAF50;
 }
