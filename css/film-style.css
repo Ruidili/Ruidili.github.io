@@ -1,0 +1,148 @@
+.logo {
+height: 180px;
+width: 180px;
+}
+
+.logo a {
+	text-decoration: none;
+}
+
+.films {
+height: 150px;
+width: 160px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.films a {
+	text-decoration: none;
+}
+
+.about {
+height: 140px;
+width: 160px;
+margin-top: 20px;
+margin-right: 20px;
+}
+
+.about a {
+	text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+	padding: 0;
+  overflow: visible !important;
+	position: relative;
+  background-color: rgba(177, 240, 288, 1);
+	display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+	z-index: 5000;
+	border-bottom: solid black 5px;
+}
+
+li {
+	display: block;
+  flex: 0 1 auto;
+  list-style-type: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: lightpink;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+body {
+	 background-image: url("background2.jpg");
+	 background-repeat: repeat;
+	 background-size: 334px 240px;
+	 font-family: "Droid Sans", sans-serif;
+	 margin: 0;
+}
+
+.text-container {
+  background-color: rgb(255,228,196);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.image2 {
+	height: 42px;
+	width: 42px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	image-orientation: center;
+}
+
+
+.image2:hover {
+	transition: 0.6s ease;
+	 width: 52px;
+	 height: 52px;
+}
+
+.social-media a {
+	text-decoration: none;
+}
+
+.social-media {
+	text-align: center;
+	background-color: lightblue;
+	border-top: grey, solid, 10px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
