@@ -213,7 +213,7 @@ body {
 	text-align: center;
 	background-color: lightblue;
 	border-top: grey, solid, 10px;
-	position: static;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 }
