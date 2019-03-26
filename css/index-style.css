@@ -214,7 +214,8 @@ body {
 	background-color: lightblue;
 	border-top: grey, solid, 10px;
 	position: relative;
-	bottom: 0;
 	width: 100%;
-	margin-bottom: -150px;
+	margin: 0;
+	grid-row-end: 3;
+	grid-row-start: 2;
 }
