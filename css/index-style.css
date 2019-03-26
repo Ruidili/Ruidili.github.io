@@ -10,7 +10,9 @@ width: 180px;
 
 .films {
 height: 150px;
-width: 170px;
+width: 160px;
+margin-top: 20px;
+margin-left: 20px;
 }
 
 .films a {
@@ -20,6 +22,8 @@ width: 170px;
 .about {
 height: 140px;
 width: 160px;
+margin-top: 20px;
+margin-right: 20px;
 }
 
 .about a {
@@ -29,19 +33,16 @@ width: 160px;
 ul {
   list-style-type: none;
   margin: 0;
-  padding-top: 30px;
-	padding-bottom: 20px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 0;
   overflow: visible !important;
 	position: relative;
-  background-color: white;
+  background-color: rgba(177, 240, 288, 1);
 	display: flex;
   align-items: stretch;
   justify-content: space-between;
   width: 100%;
 	z-index: 5000;
-	border-bottom: 2px solid rgb(255,228,196);
+	border-bottom: solid black 5px;
 }
 
 li {
@@ -61,7 +62,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: lightpink;
 }
 
 .active {
@@ -107,10 +108,6 @@ h1 {
 	font-family: "Impact", charcoal, sans-serif;
 }
 
-.h1 {
-	background: rgb(255,228,196);
-}
-
 h3 {
 	text-align: center;
 }
@@ -126,8 +123,11 @@ h3 {
 
 
 body {
-	 background-color: white;
-	font-family: 'Droid Sans', sans-serif;
+	 background-image: url("background2.jpg");
+	 background-repeat: repeat;
+	 background-size: 334px 240px;
+	 font-family: 'Droid Sans', sans-serif;
+	 margin: 0;
 }
 
 .container {
@@ -194,13 +194,14 @@ body {
 }
 
 .image2 {
-	width: 42px;
 	height: 42px;
+	width: 42px;
 	margin-left: auto;
 	margin-right: auto;
 	display: inline-block;
 	image-orientation: center;
 }
+
 
 .image2:hover {
 	transition: 0.6s ease;
@@ -214,4 +215,6 @@ body {
 
 .social-media {
 	text-align: center;
+	background-color: lightblue;
+	border-top: grey, solid, 10px;
 }
